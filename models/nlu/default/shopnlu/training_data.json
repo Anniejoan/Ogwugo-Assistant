@@ -1,0 +1,1795 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "i'm looking for a place to eat"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "north",
+            "entity": "location"
+          }
+        ],
+        "text": "i'm looking for a place in the north of town"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me chinese restaurants"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "centre",
+            "entity": "location"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "mexican",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "show me a mexican place in the centre"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "stop"
+      },
+      {
+        "intent": "goodbye",
+        "text": "end"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "i am looking for an indian spot"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "search for restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "west",
+            "entity": "location"
+          }
+        ],
+        "text": "anywhere in the west"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "central",
+            "entity": "location"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "indian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "central indian restaurant"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's right"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "jollof rice",
+            "entity": "Product - food"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": " chicken",
+            "entity": "Product - food"
+          },
+          {
+            "start": 54,
+            "end": 66,
+            "value": "Mama Onyinye",
+            "entity": "Store - Resturant"
+          }
+        ],
+        "text": "I want to buy a plate of jollof rice and chicken from Mama Onyinye."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 2,
+            "end": 21,
+            "value": "Eba with egusi soup",
+            "entity": "Product - food"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "meat",
+            "entity": "Product - food"
+          },
+          {
+            "start": 32,
+            "end": 48,
+            "value": " bottle of water",
+            "entity": "Product - water"
+          },
+          {
+            "start": 50,
+            "end": 61,
+            "value": "Jollof rice",
+            "entity": "Product - food"
+          },
+          {
+            "start": 69,
+            "end": 77,
+            "value": "plantain",
+            "entity": "Product - food"
+          },
+          {
+            "start": 84,
+            "end": 88,
+            "value": "meat",
+            "entity": "Product - food"
+          },
+          {
+            "start": 133,
+            "end": 148,
+            "value": "courtyard hotel",
+            "entity": "Location"
+          },
+          {
+            "start": 152,
+            "end": 167,
+            "value": "lugard crescent",
+            "entity": "Location"
+          },
+          {
+            "start": 224,
+            "end": 235,
+            "value": "08130604736",
+            "entity": "Telephone"
+          },
+          {
+            "start": 94,
+            "end": 104,
+            "value": "Ntachi Osa",
+            "entity": "Store - Resturant"
+          }
+        ],
+        "text": "1 Eba with egusi soup, 2 meat, 1 bottle of water. Jollof rice with 2 plantain and 2 meat from Ntachi Osa.. It should be delivered to courtyard hotel at lugard crescent. in case of any enquiries or upon delivery, pls contact 08130604736, in case am not available. Thanks."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 18,
+            "end": 54,
+            "value": "plate of vegetable soup with swallow",
+            "entity": "Product - food"
+          },
+          {
+            "start": 61,
+            "end": 75,
+            "value": "pieces of fish",
+            "entity": "Product - food"
+          },
+          {
+            "start": 88,
+            "end": 109,
+            "value": "39 Western Avenue GRA",
+            "entity": "location"
+          },
+          {
+            "start": 116,
+            "end": 127,
+            "value": "08032867986",
+            "entity": "Telephone"
+          }
+        ],
+        "text": "I want to order a plate of vegetable soup with swallow and 2 pieces of fish. Deliver to 39 Western Avenue GRA. Call 08032867986 for more information."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 2,
+            "end": 13,
+            "value": "beef pizzas",
+            "entity": "Product - food"
+          },
+          {
+            "start": 31,
+            "end": 55,
+            "value": "Carlo rossi pink moscato",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 72,
+            "end": 77,
+            "value": "Wilky",
+            "entity": "Username"
+          },
+          {
+            "start": 102,
+            "end": 121,
+            "value": "Wilkymary@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "2 beef pizzas and 3 bottles of Carlo rossi pink moscato. My username is Wilky and my email address is Wilkymary@gmail.com."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "fried rice with chicken",
+            "entity": "Product - food"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "salad",
+            "entity": "Product - food"
+          },
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Dolphin",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 53,
+            "end": 65,
+            "value": "Golden toast",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 78,
+            "end": 95,
+            "value": "56, Ugwuaji Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "fried rice with chicken from Dolphin with salad from Golden toast. Deliver to 56, Ugwuaji Enugu."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 2,
+            "end": 19,
+            "value": "crate of Heineken",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 26,
+            "end": 43,
+            "value": "blended smoothies",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 51,
+            "end": 58,
+            "value": "chapman",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 74,
+            "end": 100,
+            "value": "grilled chicken hamburgers",
+            "entity": "Product - food"
+          },
+          {
+            "start": 113,
+            "end": 123,
+            "value": "zandaconte",
+            "entity": "Username"
+          }
+        ],
+        "text": "A crate of Heineken and 3 blended smoothies with 4 chapman drinks. Also 2 grilled chicken hamburgers.Username is zandaconte"
+      },
+      {
+        "intent": "Enquiry",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "foodstuff",
+            "entity": "Product type"
+          }
+        ],
+        "text": "Do you sell foodstuff?"
+      },
+      {
+        "intent": "Enquiry",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "human hair",
+            "entity": "Product type"
+          },
+          {
+            "start": 60,
+            "end": 63,
+            "value": "25k",
+            "entity": "Price / Money"
+          }
+        ],
+        "text": "I want to place an order for human hair around the price of 25k. Can I see the products you have available?"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "heels",
+            "entity": "Product - Women's shoes"
+          },
+          {
+            "start": 48,
+            "end": 51,
+            "value": "12k",
+            "entity": "Price / Money"
+          }
+        ],
+        "text": "I want a pair of heels below the price range of 12k."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 21,
+            "end": 45,
+            "value": "beef sharwama and yogurt",
+            "entity": "Product - food"
+          },
+          {
+            "start": 76,
+            "end": 106,
+            "value": " 7 kanife Close, phase 6 Enugu",
+            "entity": "location"
+          },
+          {
+            "start": 51,
+            "end": 63,
+            "value": "Golden Toast",
+            "entity": "Store - Resturant"
+          }
+        ],
+        "text": "I want 5 servings of beef sharwama and yogurt from Golden Toast delivered to 7 kanife Close, phase 6 Enugu."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "ukwa",
+            "entity": "Product - food"
+          },
+          {
+            "start": 27,
+            "end": 63,
+            "value": "C5 Bethel Plaza, Garden Avenue Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "Deliver a plate of ukwa to C5 Bethel Plaza, Garden Avenue Enugu."
+      },
+      {
+        "intent": "Enquiry",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "generator",
+            "entity": "Product type"
+          }
+        ],
+        "text": "Can I make an order for a generator"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "value": "flat shoes",
+            "entity": "Product - Women's shoes"
+          },
+          {
+            "start": 54,
+            "end": 60,
+            "value": "size 6",
+            "entity": "shoe size"
+          }
+        ],
+        "text": "I want to place an order for flat shoes for a girl at size 6."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 9,
+            "end": 31,
+            "value": "pair of female sandals",
+            "entity": "Product - Women's shoes"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "size 10",
+            "entity": "shoe size"
+          },
+          {
+            "start": 49,
+            "end": 60,
+            "value": "8,000 naira",
+            "entity": "Price / Money"
+          }
+        ],
+        "text": "I want a pair of female sandals at size 10 below 8,000 naira."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 12,
+            "end": 31,
+            "value": " pulpy orange juice",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 45,
+            "end": 63,
+            "value": "genechuk@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "2 bottles of pulpy orange juice. My email is genechuk@gmail.com"
+      },
+      {
+        "intent": "Enquiry",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "cake",
+            "entity": "Product - food"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "tomorrow",
+            "entity": "Time"
+          }
+        ],
+        "text": "Can I preorder a cake for tomorrow"
+      },
+      {
+        "intent": "Enquiry",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "fried rice",
+            "entity": "Product - food"
+          }
+        ],
+        "text": "How much does your fried rice cost?"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 10,
+            "end": 48,
+            "value": " plate of plantain porridge with meat ",
+            "entity": "Product - food"
+          },
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Ntachi Osa",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 80,
+            "end": 88,
+            "value": "obianuju",
+            "entity": "Username"
+          },
+          {
+            "start": 103,
+            "end": 114,
+            "value": "08065803328",
+            "entity": "Telephone"
+          }
+        ],
+        "text": "Bring me a plate of plantain porridge with meat from Ntachi Osa. My username is obianuju, phone number 08065803328 "
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 14,
+            "end": 43,
+            "value": "swallow with bitter leaf soup",
+            "entity": "Product - food"
+          },
+          {
+            "start": 49,
+            "end": 60,
+            "value": "Ogwugo Food",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 67,
+            "end": 83,
+            "value": "2 pieces of fish",
+            "entity": "Product - food"
+          },
+          {
+            "start": 95,
+            "end": 104,
+            "value": "tappymike",
+            "entity": "Username"
+          },
+          {
+            "start": 120,
+            "end": 131,
+            "value": "08093475784",
+            "entity": "Telephone"
+          }
+        ],
+        "text": "I want to eat swallow with bitter leaf soup from Ogwugo Food, with 2 pieces of fish. Username: tappymike, phone number: 08093475784"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 48,
+            "end": 57,
+            "value": "goat meat",
+            "entity": "Product - food"
+          },
+          {
+            "start": 61,
+            "end": 103,
+            "value": "number 1 dolphin street, zoo estate, Enugu",
+            "entity": "location"
+          },
+          {
+            "start": 110,
+            "end": 121,
+            "value": "08077895621",
+            "entity": "Telephone"
+          },
+          {
+            "start": 19,
+            "end": 42,
+            "value": "amala Ewedu and gbegiri",
+            "entity": "Product - food"
+          }
+        ],
+        "text": "Deliver a plate of amala Ewedu and gbegiri, and goat meat to number 1 dolphin street, zoo estate, Enugu. Call 08077895621"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 13,
+            "end": 42,
+            "value": "white rice and stew with meat",
+            "entity": "Product - food"
+          },
+          {
+            "start": 48,
+            "end": 61,
+            "value": "Amala Embassy",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 73,
+            "end": 91,
+            "value": "Parklane GRA Enugu",
+            "entity": "location"
+          },
+          {
+            "start": 103,
+            "end": 111,
+            "value": "kammykal",
+            "entity": "Username"
+          }
+        ],
+        "text": "I would like white rice and stew with meat from Amala Embassy. location: Parklane GRA Enugu. Username: kammykal."
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 51,
+            "end": 76,
+            "value": "1b Annam Street New Haven",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "Daisy Life",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "yogurt",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 2,
+            "end": 11,
+            "value": "hamburger",
+            "entity": "Product - food"
+          },
+          {
+            "start": 89,
+            "end": 100,
+            "value": "08123471805",
+            "entity": "Telephone"
+          }
+        ],
+        "text": "A hamburger and yogurt from Daisy Life. Deliver to 1b Annam Street New Haven, call me at 08123471805"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 38,
+            "end": 51,
+            "value": "Queen-Jemimah",
+            "entity": "Username"
+          },
+          {
+            "start": 53,
+            "end": 64,
+            "value": "08136180357",
+            "entity": "Telephone"
+          },
+          {
+            "start": 14,
+            "end": 36,
+            "value": "2 cups oriyoke parfait",
+            "entity": "Product - food"
+          },
+          {
+            "start": 66,
+            "end": 90,
+            "value": "jeshurungifted@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "I want to buy 2 cups oriyoke parfait. Queen-Jemimah, 08136180357, jeshurungifted@gmail.com"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 14,
+            "end": 32,
+            "value": "2 chicken shawarma",
+            "entity": "Product - food"
+          },
+          {
+            "start": 37,
+            "end": 55,
+            "value": "Hollandia yorghurt",
+            "entity": "Product - drinks"
+          },
+          {
+            "start": 68,
+            "end": 91,
+            "value": "No 5 Anyansi lane ogui ",
+            "entity": "location"
+          }
+        ],
+        "text": "I want to buy 2 chicken shawarma and Hollandia yorghurt. deliver to No 5 Anyansi lane ogui "
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 59,
+            "value": "7 Zion Avenue phase 6 opp shopping center after nene school",
+            "entity": "location"
+          }
+        ],
+        "text": "7 Zion Avenue phase 6 opp shopping center after nene school"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 39,
+            "value": "No 22 Riverlane GRA After Voodoo Lounge",
+            "entity": "location"
+          }
+        ],
+        "text": "No 22 Riverlane GRA After Voodoo Lounge"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 79,
+            "value": "Lagos street, akutu crescent behind metropole Paskan Jakes, independence layout",
+            "entity": "location"
+          }
+        ],
+        "text": "Lagos street, akutu crescent behind metropole Paskan Jakes, independence layout"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "Coal city garden estate, Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "Coal city garden estate, Enugu"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "No 6 Nzimiro street new haven",
+            "entity": "location"
+          }
+        ],
+        "text": "No 6 Nzimiro street new haven"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 1,
+            "end": 50,
+            "value": "Amechi Awkunanaw, Amaguugwu, uno Akara bus stop. ",
+            "entity": "location"
+          }
+        ],
+        "text": "\tAmechi Awkunanaw, Amaguugwu, uno Akara bus stop. "
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Maryland ",
+            "entity": "location"
+          }
+        ],
+        "text": "Maryland "
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 50,
+            "value": "imt campus 3 (opposite liberty estate Enugu State)",
+            "entity": "location"
+          }
+        ],
+        "text": "imt campus 3 (opposite liberty estate Enugu State)"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "16B Paradise City estate",
+            "entity": "location"
+          }
+        ],
+        "text": "16B Paradise City estate"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 62,
+            "value": "No 6 Ekweani Street, beside brainchild school, Maryland, Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "No 6 Ekweani Street, beside brainchild school, Maryland, Enugu"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 36,
+            "value": "Unec, manuwa junction, in Enugu Town",
+            "entity": "location"
+          },
+          {
+            "start": 38,
+            "end": 48,
+            "value": "gerald29th",
+            "entity": "Username"
+          },
+          {
+            "start": 50,
+            "end": 61,
+            "value": "08060629155",
+            "entity": "Telephone"
+          },
+          {
+            "start": 63,
+            "end": 83,
+            "value": "gerald29th@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "Unec, manuwa junction, in Enugu Town. gerald29th, 08060629155, gerald29th@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "University of Nigeria,Enugu campus",
+            "entity": "location"
+          }
+        ],
+        "text": "University of Nigeria,Enugu campus"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Yvonne16",
+            "entity": "Username"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "08153305653",
+            "entity": "Telephone"
+          },
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Yvonneobi16@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "Yvonne16, 08153305653, Yvonneobi16@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 30,
+            "value": "24 state housing estate abakpa",
+            "entity": "location"
+          },
+          {
+            "start": 31,
+            "end": 44,
+            "value": " Mimiannkogbu",
+            "entity": "Username"
+          },
+          {
+            "start": 46,
+            "end": 57,
+            "value": "08153771016",
+            "entity": "Telephone"
+          },
+          {
+            "start": 59,
+            "end": 78,
+            "value": "Mimiann55@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "24 state housing estate abakpa, Mimiannkogbu, 08153771016, Mimiann55@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "suite C5 bethel plaza, garden avenue, Enugu",
+            "entity": "location"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": " rocky",
+            "entity": "Username"
+          },
+          {
+            "start": 52,
+            "end": 63,
+            "value": "08155172192",
+            "entity": "Telephone"
+          },
+          {
+            "start": 65,
+            "end": 85,
+            "value": "Sofyegbuna@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "suite C5 bethel plaza, garden avenue, Enugu. rocky, 08155172192, Sofyegbuna@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 94,
+            "end": 117,
+            "value": "udeokoloamaka@yahoo.com",
+            "entity": "Email"
+          },
+          {
+            "start": 80,
+            "end": 92,
+            "value": " 07065111377",
+            "entity": "Telephone"
+          },
+          {
+            "start": 75,
+            "end": 79,
+            "value": "Mary",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 73,
+            "value": "19 Akpabio street, maternal health specialist Clinic and fertility Centre",
+            "entity": "location"
+          }
+        ],
+        "text": "19 Akpabio street, maternal health specialist Clinic and fertility Centre. Mary, 07065111377, udeokoloamaka@yahoo.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 88,
+            "end": 115,
+            "value": "cheeomahorphormer@gmail.com",
+            "entity": "Email"
+          },
+          {
+            "start": 63,
+            "end": 73,
+            "value": "the.chiomz",
+            "entity": "Username"
+          },
+          {
+            "start": 75,
+            "end": 86,
+            "value": "08168159153",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 61,
+            "value": "Nondon Hotel, New Haven, Opposite Psychiatric Hospital. Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "Nondon Hotel, New Haven, Opposite Psychiatric Hospital. Enugu. the.chiomz, 08168159153, cheeomahorphormer@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 53,
+            "value": "18 Bassey Duke Street, Chime Avenue, New Haven, Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "18 Bassey Duke Street, Chime Avenue, New Haven, Enugu"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 72,
+            "end": 90,
+            "value": "mczaga30@gmail.com",
+            "entity": "Email"
+          },
+          {
+            "start": 59,
+            "end": 70,
+            "value": "07061030875",
+            "entity": "Telephone"
+          },
+          {
+            "start": 50,
+            "end": 57,
+            "value": "odinaka",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 48,
+            "value": "12 Ufuma street Achara layout. by Amokwe busstop",
+            "entity": "location"
+          }
+        ],
+        "text": "12 Ufuma street Achara layout. by Amokwe busstop. odinaka, 07061030875, mczaga30@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "08057351356",
+            "entity": "Telephone"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "Souperbeats",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 9,
+            "value": "GRA Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "GRA Enugu . Souperbeats, 08057351356"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 50,
+            "end": 59,
+            "value": "Mirichris",
+            "entity": "Username"
+          },
+          {
+            "start": 61,
+            "end": 72,
+            "value": "07066504166",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 48,
+            "value": "Ben Auto guest house 17, Oladipupo Fafore Street",
+            "entity": "location"
+          }
+        ],
+        "text": "Ben Auto guest house 17, Oladipupo Fafore Street. Mirichris, 07066504166"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 45,
+            "end": 56,
+            "value": "08032724143",
+            "entity": "Telephone"
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Chizoba",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 34,
+            "value": "University of Nigeria Enugu Campus",
+            "entity": "location"
+          }
+        ],
+        "text": "University of Nigeria Enugu Campus. Chizoba, 08032724143"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 90,
+            "value": "Oraegbunike and Associates Central Bank of Nigeria Building, Okpara Avenue, Enugu, Nigeria",
+            "entity": "location"
+          }
+        ],
+        "text": "Oraegbunike and Associates Central Bank of Nigeria Building, Okpara Avenue, Enugu, Nigeria."
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 83,
+            "value": "35B Oxford street Railway quarters( by Dustbin Bustop-opposite FCMB Garden avenue) ",
+            "entity": "location"
+          }
+        ],
+        "text": "35B Oxford street Railway quarters( by Dustbin Bustop-opposite FCMB Garden avenue) "
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 48,
+            "end": 55,
+            "value": "barbara",
+            "entity": "Username"
+          },
+          {
+            "start": 57,
+            "end": 68,
+            "value": "07016889934",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 46,
+            "value": "Carita university amorji Nike enugu orie emene",
+            "entity": "location"
+          }
+        ],
+        "text": "Carita university amorji Nike enugu orie emene. barbara, 07016889934"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "DeAnt",
+            "entity": "Username"
+          },
+          {
+            "start": 30,
+            "end": 41,
+            "value": "09038562609",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 21,
+            "value": "133 ziks avenue, awka",
+            "entity": "location"
+          }
+        ],
+        "text": "133 ziks avenue, awka. DeAnt, 09038562609"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 68,
+            "end": 88,
+            "value": "iamjacynta@gmail.com",
+            "entity": "Email"
+          },
+          {
+            "start": 55,
+            "end": 66,
+            "value": "09028608366",
+            "entity": "Telephone"
+          },
+          {
+            "start": 39,
+            "end": 53,
+            "value": "Dark_chocolate",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 37,
+            "value": "14,link Road. indepence layout, Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "14,link Road. indepence layout, Enugu. Dark_chocolate, 09028608366, iamjacynta@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 45,
+            "end": 56,
+            "value": "08121243751",
+            "entity": "Telephone"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "midextoran",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 31,
+            "value": "off Alexandra road apata ibadan",
+            "entity": "location"
+          }
+        ],
+        "text": "off Alexandra road apata ibadan. midextoran, 08121243751"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 73,
+            "value": "no 6 Bath Okafor street, off Mike Torey road, Phase 6 Trans-Ekulu, Enugu.",
+            "entity": "location"
+          }
+        ],
+        "text": "no 6 Bath Okafor street, off Mike Torey road, Phase 6 Trans-Ekulu, Enugu."
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 35,
+            "end": 49,
+            "value": "Christopher042",
+            "entity": "Username"
+          },
+          {
+            "start": 51,
+            "end": 62,
+            "value": "09070813521",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 33,
+            "value": "No 37 coal city garden estate GRA",
+            "entity": "location"
+          }
+        ],
+        "text": "No 37 coal city garden estate GRA. Christopher042, 09070813521"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 83,
+            "end": 96,
+            "value": "0812 938 0016",
+            "entity": "Telephone"
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "value": "Chidinma",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 43,
+            "value": "16 winners avenue independence layout enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "16 winners avenue independence layout enugu. My name is Chidinma,  phone number is 0812 938 0016"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 12,
+            "end": 44,
+            "value": "No.7 Edinburgh New Layout Enugu ",
+            "entity": "location"
+          }
+        ],
+        "text": "location is No.7 Edinburgh New Layout Enugu "
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 76,
+            "end": 99,
+            "value": "orjinancy2016@gmail.com",
+            "entity": "Email"
+          },
+          {
+            "start": 63,
+            "end": 74,
+            "value": "08123549047",
+            "entity": "Telephone"
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "naana",
+            "entity": "Username"
+          },
+          {
+            "start": 0,
+            "end": 54,
+            "value": "2nd floor Canute house, ogui road. opposite union bank",
+            "entity": "location"
+          }
+        ],
+        "text": "2nd floor Canute house, ogui road. opposite union bank, naana, 08123549047, orjinancy2016@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 42,
+            "end": 49,
+            "value": "12 noon",
+            "entity": "Time"
+          },
+          {
+            "start": 11,
+            "end": 38,
+            "value": "ibuza Avenue off Ozom hotel",
+            "entity": "location"
+          }
+        ],
+        "text": "Deliver to ibuza Avenue off Ozom hotel by 12 noon"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 57,
+            "end": 63,
+            "value": "kaycee",
+            "entity": "Username"
+          },
+          {
+            "start": 65,
+            "end": 76,
+            "value": "08033976012",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 55,
+            "value": "66 Coal City Garden Estate By Clubway Road, G.R.A Enugu",
+            "entity": "location"
+          }
+        ],
+        "text": "66 Coal City Garden Estate By Clubway Road, G.R.A Enugu. kaycee, 08033976012"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 64,
+            "end": 86,
+            "value": "Kuvukiprince@gmail.com",
+            "entity": "Email"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "08063961405",
+            "entity": "Telephone"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "value": "Kuvukiprince",
+            "entity": "Username"
+          }
+        ],
+        "text": "Username is Kuvukiprince, phone number is 08063961405, email is Kuvukiprince@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "DonCHRIS",
+            "entity": "Username"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "08186634780",
+            "entity": "Telephone"
+          },
+          {
+            "start": 23,
+            "end": 46,
+            "value": "emekamoses.sr@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "DonCHRIS, 08186634780, emekamoses.sr@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Beckysasha",
+            "entity": "Username"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "08068843969",
+            "entity": "Telephone"
+          },
+          {
+            "start": 25,
+            "end": 56,
+            "value": "Mmaduekesoniachioma16@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "Beckysasha, 08068843969, Mmaduekesoniachioma16@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Mandy",
+            "entity": "Username"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "08080054967",
+            "entity": "Telephone"
+          },
+          {
+            "start": 20,
+            "end": 44,
+            "value": "Oobianabanoble@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "Mandy, 08080054967, Oobianabanoble@gmail.com"
+      },
+      {
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "08135689327",
+            "entity": "Telephone"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nneoma",
+            "entity": "Username"
+          },
+          {
+            "start": 21,
+            "end": 45,
+            "value": "Oobianabanoble@gmail.com",
+            "entity": "Email"
+          }
+        ],
+        "text": "Nneoma, 08135689327, Oobianabanoble@gmail.com"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chivita",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "Chivita"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "pulpy orange",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "pulpy orange"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Hollandia",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "Hollandia"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "orange juice",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "orange juice"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "milkshake",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "milkshake"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "blended smoothie",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "blended smoothie"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "parfait",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "parfait"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "yogurt",
+            "entity": "Product - drinks"
+          }
+        ],
+        "text": "yogurt"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "open sharaton",
+            "entity": "Store - Resturant"
+          }
+        ],
+        "text": "open sharaton"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 26,
+            "end": 52,
+            "value": "tastee bakers and creamery",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 12,
+            "end": 20,
+            "value": "pastries",
+            "entity": "Product - food"
+          }
+        ],
+        "text": "I want some pastries from tastee bakers and creamery"
+      },
+      {
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "Ntachi Osa",
+            "entity": "Store - Resturant"
+          }
+        ],
+        "text": "food from Ntachi Osa"
+      },
+      {
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Crunchies",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chicken",
+            "entity": "Product - food"
+          }
+        ],
+        "text": "chicken from Crunchies"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Jollof rice",
+            "entity": "Product - food"
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "value": "Mama Onyinye",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 51,
+            "end": 53,
+            "value": "1k",
+            "entity": "Price / Money"
+          }
+        ],
+        "text": "I want Jollof rice from Mama Onyinye for less than 1k"
+      },
+      {
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 28,
+            "end": 40,
+            "value": "Duo Pizzeria",
+            "entity": "Store - Resturant"
+          },
+          {
+            "start": 8,
+            "end": 22,
+            "value": "2 large pizzas",
+            "entity": "Product - food"
+          }
+        ],
+        "text": "Deliver 2 large pizzas from Duo Pizzeria"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
