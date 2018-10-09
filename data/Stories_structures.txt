@@ -1,0 +1,191 @@
+# STORY STRUCTURES
+
+
+User: Greet
+
+OgwugoAssistant: utter_greet
+
+
+
+
+User: Goodbye
+
+OgwugoAssistant: utter_goodbye
+
+
+
+
+User: Order
+  Entities: Product - Slot: Product
+
+OgwugoAssistant: ask_details
+
+User: Details
+	Entities: Telephone - Slot: Telephone
+			  Location  - Slot: Location
+
+OgwugoAssistant: action: Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+	
+
+	
+
+User: Order
+  Entities: Product - Slot: Product
+
+OgwugoAssistant: ask_details
+
+User: Details 
+	Entities: Username - Slot: Username
+
+OgwugoAssistant: action: User_search
+						 Product_search
+			return: product_results
+					user_results:
+						Telephone
+						Location
+						Order_message
+						
+						
+						
+						
+User: Order
+	Entities: Product - Slot: Product
+			  Store - Slot: Store
+	
+OgwugoAssistant: action: ask_details
+	
+User: Details
+	Entities: Username - Slot: Username
+
+OgwugoAssistant: action: User_search
+						 Store_search
+						 Product_search
+			return: product_results
+					user_results:
+						Telephone
+						Location
+						Order_message
+						
+						
+						
+						
+User: Order
+	Entities: Product - Slot: Product
+			  Store - Slot: Store
+	
+OgwugoAssistant: action: ask_details
+
+User: Details
+	Entities: Telephone - Slot: Telephone
+			  Location  - Slot: Location
+
+OgwugoAssistant: action: Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+					
+					
+					
+					
+User: Order
+	Entities: Product - Slot: Product
+			  Telephone - Slot: Telephone
+			  Location - Slot: Location
+			 
+OgwugoAssistant: action: Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+					
+					
+					
+					
+User: Order
+	Entities: Product - Slot: Product
+			  Store - Slot: Store
+			  Telephone - Slot: Telephone
+			  Location - Slot: Location
+			  
+OgwugoAssistant: action: Store_search
+						 Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+			  
+	
+
+
+User: Order
+	Entities: Product - Slot: Product
+			  Store - Slot: Store
+			  Username - Slot: Username
+			  
+OgwugoAssistant: action: User_search
+						 Store_search
+						 Product_search
+			return: product_results
+					user_results:
+						Telephone
+						Location
+						Order_message
+						
+						
+						
+						
+User: Order
+	Entities: Product - Slot: Product
+			  Username - Slot: Username
+	
+OgwugoAssistant: action: User_search
+						 Product_search
+			return: product_results
+					user_results:
+						Telephone
+						Location
+						Order_message
+						
+						
+						
+						
+User: Order
+	Entities: Product - Slot: Product
+			  Telephone - Slot: Telephone
+
+OgwugoAssistant: ask_detail_location
+
+User: Details:
+	Entities: Location - Slot: Location 
+			  
+OgwugoAssistant: action: Store_search
+						 Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+
+					
+					
+					
+User: Order
+	Entities: Product - Slot: Product
+			  Location - Slot: Location
+
+OgwugoAssistant: ask_detail_telephone
+
+User: Details:
+	Entities: Telephone - Slot: Telephone 
+			  
+OgwugoAssistant: action: Store_search
+						 Product_search
+			return: product_results
+					Telephone
+					Location
+					Order_message
+			  
