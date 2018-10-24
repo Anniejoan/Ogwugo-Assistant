@@ -1817,6 +1817,186 @@
             "entity": "Product - food"
           }
         ]
+      },
+      {
+        "text": "I want bamboo skewers",
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 7,
+            "end": 21,
+            "value": "bamboo skewers",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "Give me bag of rice",
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "bag of rice",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "Deliver hotdog and parfait",
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "hotdog",
+            "entity": "Product - food"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "parfait",
+            "entity": "Product - drinks"
+          }
+        ]
+      },
+      {
+        "text": "beef burger",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "beef burger",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "shawarma",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "shawarma",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "I want to order a plate of ukwa and fish",
+        "intent": "Order",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "ukwa",
+            "entity": "Product - food"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "fish",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "spaghetti",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "spaghetti",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "Porridge beans and yam",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Porridge beans and yam",
+            "entity": "Product - food"
+          }
+        ]
+      },
+      {
+        "text": "Deliver to block j Elim estate, ibagwa Nike. Enugu east ",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 11,
+            "end": 56,
+            "value": "block j Elim estate, ibagwa Nike. Enugu east ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "9 Awolowo Street Uwani Enugu by Mtn office",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 42,
+            "value": "9 Awolowo Street Uwani Enugu by Mtn office",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "my location is Coal city garden estate, Enugu",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 15,
+            "end": 45,
+            "value": "Coal city garden estate, Enugu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "No 6 c.o Ibeh street off sani abacha, phase 6 ",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "No 6 c.o Ibeh street off sani abacha, phase 6 ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "No 1 sir Fabian ozougwu crescent trans ekulu Enugu",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 50,
+            "value": "No 1 sir Fabian ozougwu crescent trans ekulu Enugu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "no 1 jubilee road premiere layout",
+        "intent": "Details",
+        "entities": [
+          {
+            "start": 0,
+            "end": 33,
+            "value": "no 1 jubilee road premiere layout",
+            "entity": "location"
+          }
+        ]
       }
     ]
   }
