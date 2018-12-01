@@ -5,8 +5,6 @@ slots:
 		type: list
 	-Location:
 		type: text
-	-Username:
-		type: text
     -Store:
         type: text
 
