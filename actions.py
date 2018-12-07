@@ -63,5 +63,7 @@ class ActionStoreSearch(Action):
 
 
 		# narrow the search space to items sold by that store
+		return 'ActionStoreSearch'
+	
 
-
+run action_product_search(Action)
