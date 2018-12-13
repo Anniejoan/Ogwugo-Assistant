@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 from __future__ import division
-from __future__ import unicode_laterals
+from __future__ import unicode_literals
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
@@ -21,6 +21,10 @@ class ActionProductSearch(Action):
 		# Make a request to the endpoint using the correct auth values
 		auth_values = (user, passwd)
 		response = requests.get(url, auth=auth_values)
+
+
+
+
 
 		# Convert JSON to dict and print
 		print(response.json())
