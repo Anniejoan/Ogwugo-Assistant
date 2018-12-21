@@ -9,6 +9,7 @@ class ActionProductSearch(Action):
 	def name(self):
 		return 'action_Product_search'
 
+
 	def run(self,dispatcher,tracker,domain):
 		import requests
 
@@ -21,15 +22,23 @@ class ActionProductSearch(Action):
 		# Make a request to the endpoint using the correct auth values
 		auth_values = (user, passwd)
 		response = requests.get(url, auth=auth_values)
-
-
-
-
-
 		# Convert JSON to dict and print
-		print(response.json())
+		import json
+		product_dict = json.loads(response.content.decode())
+		Products = product_dict['data']
+		Name = Products[0]['name']
+		Stock_status = Products[0]["in_stock"]
+		Store = Products[0]["store_name"]
+		Product_type = Products[0]["product_type"]
 
-	
+		if Stock_status == 1:
+			reply = """" {} sold by {} is currently available for delivery.""".format_map(Name, Store)
+		else:
+			reply = """" {} sold by {} is currently unavailable for delivery.""".format_map(Name, Store)
+		return 'ActionProductSearch'
+
+		dispatcher.utter_message(reply)
+		return [SlotSet('Product', product_name)]
 
 		# get top 5 product names and their prices
 
@@ -68,6 +77,5 @@ class ActionStoreSearch(Action):
 
 		# narrow the search space to items sold by that store
 		return 'ActionStoreSearch'
-	
 
-run action_product_search(Action)
+
