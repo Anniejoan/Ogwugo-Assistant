@@ -1,0 +1,30 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "Location",
+        "Username",
+        "Store",
+        "Product",
+        "Telephone"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action.action_Product_search": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.8",
+  "python": "3.6.3",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

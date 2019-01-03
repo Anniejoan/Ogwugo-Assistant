@@ -188,19 +188,19 @@
             "start": 25,
             "end": 36,
             "value": "jollof rice",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 40,
             "end": 48,
             "value": " chicken",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 54,
             "end": 66,
             "value": "Mama Onyinye",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           }
         ]
       },
@@ -212,49 +212,49 @@
             "start": 2,
             "end": 21,
             "value": "Eba with egusi soup",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 25,
             "end": 29,
             "value": "meat",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 32,
             "end": 48,
             "value": " bottle of water",
-            "entity": "Product - water"
+            "entity": "Product "
           },
           {
             "start": 50,
             "end": 61,
             "value": "Jollof rice",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 69,
             "end": 77,
             "value": "plantain",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 84,
             "end": 88,
             "value": "meat",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 133,
             "end": 148,
             "value": "courtyard hotel",
-            "entity": "Location"
+            "entity": "location"
           },
           {
             "start": 152,
             "end": 167,
             "value": "lugard crescent",
-            "entity": "Location"
+            "entity": "location"
           },
           {
             "start": 224,
@@ -266,7 +266,7 @@
             "start": 94,
             "end": 104,
             "value": "Ntachi Osa",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           }
         ]
       },
@@ -278,13 +278,13 @@
             "start": 18,
             "end": 54,
             "value": "plate of vegetable soup with swallow",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 61,
             "end": 75,
             "value": "pieces of fish",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 88,
@@ -308,13 +308,13 @@
             "start": 2,
             "end": 13,
             "value": "beef pizzas",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 31,
             "end": 55,
             "value": "Carlo rossi pink moscato",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 72,
@@ -338,25 +338,25 @@
             "start": 0,
             "end": 23,
             "value": "fried rice with chicken",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 42,
             "end": 47,
             "value": "salad",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 29,
             "end": 36,
             "value": "Dolphin",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 53,
             "end": 65,
             "value": "Golden toast",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 78,
@@ -374,25 +374,25 @@
             "start": 2,
             "end": 19,
             "value": "crate of Heineken",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 26,
             "end": 43,
             "value": "blended smoothies",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 51,
             "end": 58,
             "value": "chapman",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 74,
             "end": 100,
             "value": "grilled chicken hamburgers",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 113,
@@ -410,25 +410,25 @@
             "start": 12,
             "end": 21,
             "value": "foodstuff",
-            "entity": "Product type"
+            "entity": "Product "
           }
         ]
       },
       {
         "text": "I want to place an order for human hair around the price of 25k. Can I see the products you have available?",
-        "intent": "Enquiry",
+        "intent": "Order",
         "entities": [
           {
             "start": 29,
             "end": 39,
             "value": "human hair",
-            "entity": "Product type"
+            "entity": "Product "
           },
           {
             "start": 60,
             "end": 63,
             "value": "25k",
-            "entity": "Price / Money"
+            "entity": "Price "
           }
         ]
       },
@@ -440,13 +440,13 @@
             "start": 17,
             "end": 22,
             "value": "heels",
-            "entity": "Product - Women's shoes"
+            "entity": "Product "
           },
           {
             "start": 48,
             "end": 51,
             "value": "12k",
-            "entity": "Price / Money"
+            "entity": "Price "
           }
         ]
       },
@@ -458,7 +458,7 @@
             "start": 21,
             "end": 45,
             "value": "beef sharwama and yogurt",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 76,
@@ -470,7 +470,7 @@
             "start": 51,
             "end": 63,
             "value": "Golden Toast",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           }
         ]
       },
@@ -482,7 +482,7 @@
             "start": 19,
             "end": 23,
             "value": "ukwa",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 27,
@@ -500,7 +500,7 @@
             "start": 26,
             "end": 35,
             "value": "generator",
-            "entity": "Product type"
+            "entity": "Product "
           }
         ]
       },
@@ -512,7 +512,7 @@
             "start": 29,
             "end": 39,
             "value": "flat shoes",
-            "entity": "Product - Women's shoes"
+            "entity": "Product "
           },
           {
             "start": 54,
@@ -530,7 +530,7 @@
             "start": 9,
             "end": 31,
             "value": "pair of female sandals",
-            "entity": "Product - Women's shoes"
+            "entity": "Product "
           },
           {
             "start": 35,
@@ -542,7 +542,7 @@
             "start": 49,
             "end": 60,
             "value": "8,000 naira",
-            "entity": "Price / Money"
+            "entity": "Price "
           }
         ]
       },
@@ -554,7 +554,7 @@
             "start": 12,
             "end": 31,
             "value": " pulpy orange juice",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 45,
@@ -572,7 +572,7 @@
             "start": 17,
             "end": 21,
             "value": "cake",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 26,
@@ -590,7 +590,7 @@
             "start": 19,
             "end": 29,
             "value": "fried rice",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -602,13 +602,13 @@
             "start": 10,
             "end": 48,
             "value": " plate of plantain porridge with meat ",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 53,
             "end": 63,
             "value": "Ntachi Osa",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 80,
@@ -632,19 +632,19 @@
             "start": 14,
             "end": 43,
             "value": "swallow with bitter leaf soup",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 49,
             "end": 60,
             "value": "Ogwugo Food",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 67,
             "end": 83,
             "value": "2 pieces of fish",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 95,
@@ -668,7 +668,7 @@
             "start": 48,
             "end": 57,
             "value": "goat meat",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 61,
@@ -686,7 +686,7 @@
             "start": 19,
             "end": 42,
             "value": "amala Ewedu and gbegiri",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -698,13 +698,13 @@
             "start": 13,
             "end": 42,
             "value": "white rice and stew with meat",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 48,
             "end": 61,
             "value": "Amala Embassy",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 73,
@@ -734,19 +734,19 @@
             "start": 28,
             "end": 38,
             "value": "Daisy Life",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 16,
             "end": 22,
             "value": "yogurt",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 2,
             "end": 11,
             "value": "hamburger",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 89,
@@ -776,7 +776,7 @@
             "start": 14,
             "end": 36,
             "value": "2 cups oriyoke parfait",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 66,
@@ -794,13 +794,13 @@
             "start": 14,
             "end": 32,
             "value": "2 chicken shawarma",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 37,
             "end": 55,
             "value": "Hollandia yorghurt",
-            "entity": "Product - drinks"
+            "entity": "Product "
           },
           {
             "start": 68,
@@ -1628,7 +1628,7 @@
             "start": 0,
             "end": 7,
             "value": "Chivita",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1640,7 +1640,7 @@
             "start": 0,
             "end": 12,
             "value": "pulpy orange",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1652,7 +1652,7 @@
             "start": 0,
             "end": 9,
             "value": "Hollandia",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1664,7 +1664,7 @@
             "start": 0,
             "end": 12,
             "value": "orange juice",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1676,7 +1676,7 @@
             "start": 0,
             "end": 9,
             "value": "milkshake",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1688,7 +1688,7 @@
             "start": 0,
             "end": 16,
             "value": "blended smoothie",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1700,7 +1700,7 @@
             "start": 0,
             "end": 7,
             "value": "parfait",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1712,7 +1712,7 @@
             "start": 0,
             "end": 6,
             "value": "yogurt",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1724,7 +1724,7 @@
             "start": 0,
             "end": 13,
             "value": "open sharaton",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           }
         ]
       },
@@ -1736,13 +1736,13 @@
             "start": 26,
             "end": 52,
             "value": "tastee bakers and creamery",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 12,
             "end": 20,
             "value": "pastries",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1754,7 +1754,7 @@
             "start": 10,
             "end": 20,
             "value": "Ntachi Osa",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           }
         ]
       },
@@ -1766,13 +1766,13 @@
             "start": 13,
             "end": 22,
             "value": "Crunchies",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 0,
             "end": 7,
             "value": "chicken",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1784,19 +1784,19 @@
             "start": 7,
             "end": 18,
             "value": "Jollof rice",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 24,
             "end": 36,
             "value": "Mama Onyinye",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 51,
             "end": 53,
             "value": "1k",
-            "entity": "Price / Money"
+            "entity": "Price "
           }
         ]
       },
@@ -1808,13 +1808,13 @@
             "start": 28,
             "end": 40,
             "value": "Duo Pizzeria",
-            "entity": "Store - Resturant"
+            "entity": "Store "
           },
           {
             "start": 8,
             "end": 22,
             "value": "2 large pizzas",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1826,7 +1826,7 @@
             "start": 7,
             "end": 21,
             "value": "bamboo skewers",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1838,7 +1838,7 @@
             "start": 8,
             "end": 19,
             "value": "bag of rice",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1850,13 +1850,13 @@
             "start": 8,
             "end": 14,
             "value": "hotdog",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 19,
             "end": 26,
             "value": "parfait",
-            "entity": "Product - drinks"
+            "entity": "Product "
           }
         ]
       },
@@ -1868,7 +1868,7 @@
             "start": 0,
             "end": 11,
             "value": "beef burger",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1880,7 +1880,7 @@
             "start": 0,
             "end": 8,
             "value": "shawarma",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1892,13 +1892,13 @@
             "start": 27,
             "end": 31,
             "value": "ukwa",
-            "entity": "Product - food"
+            "entity": "Product "
           },
           {
             "start": 36,
             "end": 40,
             "value": "fish",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1910,7 +1910,7 @@
             "start": 0,
             "end": 9,
             "value": "spaghetti",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },
@@ -1922,7 +1922,7 @@
             "start": 0,
             "end": 22,
             "value": "Porridge beans and yam",
-            "entity": "Product - food"
+            "entity": "Product "
           }
         ]
       },

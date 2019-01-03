@@ -29,9 +29,9 @@ def train_dialogue(domain_file = 'shopassistant_domain.yml',
 	agent.persist(model_path)
 	return agent
 	
-def run_Ogwugo_assistant(serve_forever=True):
+def run_Ogwugo_Assistant(serve_forever=True):
 	interpreter = RasaNLUInterpreter('./models/nlu/default/shopnlu')
-	action_endpoint = EndpointConfig(url="https://ogwugo.net/api/v2/machine/resources")
+	action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")
 	agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)
 	rasa_core.run.serve_application(agent ,channel='cmdline')
 		
@@ -39,4 +39,4 @@ def run_Ogwugo_assistant(serve_forever=True):
 	
 if __name__ == '__main__':
 	train_dialogue()
-	run_Ogwugo_assistant()
+	run_Ogwugo_Assistant()

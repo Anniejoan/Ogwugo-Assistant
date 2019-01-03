@@ -15,10 +15,10 @@ from rasa_core.utils import EndpointConfig
 logger = logging.getLogger(__name__)
 
 
-def run_weather_online(interpreter,
+def run_Ogwugo_online(interpreter,
                           domain_file="shopassistant_domain.yml",
                           training_data_file='data/stories.md'):
-    #action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
+    action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")						  
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy()],
                   interpreter=interpreter,
@@ -36,4 +36,4 @@ def run_weather_online(interpreter,
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/shopnlu')
-    run_weather_online(nlu_interpreter)
+    run_Ogwugo_online(nlu_interpreter)

@@ -1,0 +1,56 @@
+%YAML 1.1
+---
+actions:
+- action.action_Product_search
+- utter_greet
+- utter_goodbye
+- utter_ask_details
+- utter_ask_detail_telephone
+- utter_ask_detail_location
+config:
+  store_entities_as_slots: true
+entities:
+- Username
+- location
+- Store
+- Product
+- Telephone
+- Price
+intents: []
+slots:
+  Product:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Store:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Telephone:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Username:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_detail_location:
+  - text: Where do you want your order to be delivered to?
+  - text: Please provide your current location details
+  utter_ask_detail_telephone:
+  - text: Please enter your phone number
+  - text: Please provide your contact details
+  utter_ask_details:
+  - text: Please provide your phone number and your current address or your username
+      if you are have an account with Ogwugo.com
+  - text: Where do you want your order to be delivered to? Please add your phone number
+      as well.
+  - text: Enter your phone number and address for delivery or just your username if
+      you have an Ogwugo account
+  - text: Do you have an account with Ogwugo. If yes provide your username, else provide
+      your address and contact info.
+  utter_goodbye:
+  - text: Talk to you later
+  - text: Bye bye
+  utter_greet:
+  - text: Hello! How can I help

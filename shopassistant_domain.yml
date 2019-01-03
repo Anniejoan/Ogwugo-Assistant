@@ -1,46 +1,47 @@
 slots:
-	-Username:
-		type: text
-	-Product:
-		type: list
-	-Location:
-		type: text
-    -Store:
-        type: text
+  Username:
+    type: text
+  Product:
+    type: text
+  location:
+    type: text
+  Store:
+    type: text
+  Telephone:
+    type: text
 
 intent:
-	- greet
-	- goodbye
-	- Order
+  - greet
+  - goodbye
+  - Order
 
 entities:
-	- Username
-	- location
-	- Store-Resturant
-	- Product-food
-	- Product-water
-	- Product - drinks
+  - Username
+  - location
+  - Store
+  - Product
+  - Telephone
+  - Price
+
 templates:
-    utter_greet:
-        - 'Hello! How can I help'
-    utter_goodbye:
-        - 'Talk to you later'
-        - 'Bye bye'
-    utter_ask_details:
-        - 'Please provide your phone number and your current address or your username if you are have an account with Ogwugo.com'
-        - 'Where do you want your order to be delivered to? Please add your phone number as well.'
-        - 'Enter your phone number and address for delivery or just your username if you have an Ogwugo account'
-        - 'Do you have an account with Ogwugo. If yes provide your username, else provide your address and contact info.'
-    utter_ask_detail_telephone:
-        - 'Please enter your phone number'
-        - 'Please provide your contact details'
-    utter_ask_detail_location:
-        - 'Where do you want your order to be delivered to?'
-        - 'Please provide your current location details'
+  utter_greet:
+    - 'Hello! How can I help'
+  utter_goodbye:
+    - 'Talk to you later'
+    - 'Bye bye'
+  utter_ask_details:
+    - 'Please provide your phone number and your current address or your username if you are have an account with Ogwugo.com'
+    - 'Where do you want your order to be delivered to? Please add your phone number as well.'
+    - 'Enter your phone number and address for delivery or just your username if you have an Ogwugo account'
+    - 'Do you have an account with Ogwugo. If yes provide your username, else provide your address and contact info.'
+  utter_ask_detail_telephone:
+    - 'Please enter your phone number'
+    - 'Please provide your contact details'
+  utter_ask_detail_location:
+    - 'Where do you want your order to be delivered to?'
+    - 'Please provide your current location details'
 actions:
-    - action_Product_search
-    - action_User_search
-    - action_Store_search
+    - action.action_Product_search
     - utter_greet
     - utter_goodbye
     - utter_ask_details
