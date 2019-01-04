@@ -168,19 +168,19 @@
             "start": 25,
             "end": 36,
             "value": "jollof rice",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 40,
             "end": 48,
             "value": " chicken",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 54,
             "end": 66,
             "value": "Mama Onyinye",
-            "entity": "Store "
+            "entity": "Store"
           }
         ],
         "text": "I want to buy a plate of jollof rice and chicken from Mama Onyinye."
@@ -192,37 +192,37 @@
             "start": 2,
             "end": 21,
             "value": "Eba with egusi soup",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 25,
             "end": 29,
             "value": "meat",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 32,
             "end": 48,
             "value": " bottle of water",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 50,
             "end": 61,
             "value": "Jollof rice",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 69,
             "end": 77,
             "value": "plantain",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 84,
             "end": 88,
             "value": "meat",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 133,
@@ -246,7 +246,7 @@
             "start": 94,
             "end": 104,
             "value": "Ntachi Osa",
-            "entity": "Store "
+            "entity": "Store"
           }
         ],
         "text": "1 Eba with egusi soup, 2 meat, 1 bottle of water. Jollof rice with 2 plantain and 2 meat from Ntachi Osa.. It should be delivered to courtyard hotel at lugard crescent. in case of any enquiries or upon delivery, pls contact 08130604736, in case am not available. Thanks."
@@ -258,13 +258,13 @@
             "start": 18,
             "end": 54,
             "value": "plate of vegetable soup with swallow",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 61,
             "end": 75,
             "value": "pieces of fish",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 88,
@@ -288,13 +288,13 @@
             "start": 2,
             "end": 13,
             "value": "beef pizzas",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 31,
             "end": 55,
             "value": "Carlo rossi pink moscato",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 72,
@@ -318,25 +318,25 @@
             "start": 0,
             "end": 23,
             "value": "fried rice with chicken",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 42,
             "end": 47,
             "value": "salad",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 29,
             "end": 36,
             "value": "Dolphin",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 53,
             "end": 65,
             "value": "Golden toast",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 78,
@@ -354,25 +354,25 @@
             "start": 2,
             "end": 19,
             "value": "crate of Heineken",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 26,
             "end": 43,
             "value": "blended smoothies",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 51,
             "end": 58,
             "value": "chapman",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 74,
             "end": 100,
             "value": "grilled chicken hamburgers",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 113,
@@ -390,7 +390,7 @@
             "start": 12,
             "end": 21,
             "value": "foodstuff",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Do you sell foodstuff?"
@@ -402,7 +402,7 @@
             "start": 29,
             "end": 39,
             "value": "human hair",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 60,
@@ -420,7 +420,7 @@
             "start": 17,
             "end": 22,
             "value": "heels",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 48,
@@ -438,7 +438,7 @@
             "start": 21,
             "end": 45,
             "value": "beef sharwama and yogurt",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 76,
@@ -450,7 +450,7 @@
             "start": 51,
             "end": 63,
             "value": "Golden Toast",
-            "entity": "Store "
+            "entity": "Store"
           }
         ],
         "text": "I want 5 servings of beef sharwama and yogurt from Golden Toast delivered to 7 kanife Close, phase 6 Enugu."
@@ -462,7 +462,7 @@
             "start": 19,
             "end": 23,
             "value": "ukwa",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 27,
@@ -480,7 +480,7 @@
             "start": 26,
             "end": 35,
             "value": "generator",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Can I make an order for a generator"
@@ -492,7 +492,7 @@
             "start": 29,
             "end": 39,
             "value": "flat shoes",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 54,
@@ -510,7 +510,7 @@
             "start": 9,
             "end": 31,
             "value": "pair of female sandals",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 35,
@@ -534,7 +534,7 @@
             "start": 12,
             "end": 31,
             "value": " pulpy orange juice",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 45,
@@ -552,7 +552,7 @@
             "start": 17,
             "end": 21,
             "value": "cake",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 26,
@@ -570,7 +570,7 @@
             "start": 19,
             "end": 29,
             "value": "fried rice",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "How much does your fried rice cost?"
@@ -582,13 +582,13 @@
             "start": 10,
             "end": 48,
             "value": " plate of plantain porridge with meat ",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 53,
             "end": 63,
             "value": "Ntachi Osa",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 80,
@@ -612,19 +612,19 @@
             "start": 14,
             "end": 43,
             "value": "swallow with bitter leaf soup",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 49,
             "end": 60,
             "value": "Ogwugo Food",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 67,
             "end": 83,
             "value": "2 pieces of fish",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 95,
@@ -648,7 +648,7 @@
             "start": 48,
             "end": 57,
             "value": "goat meat",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 61,
@@ -666,7 +666,7 @@
             "start": 19,
             "end": 42,
             "value": "amala Ewedu and gbegiri",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Deliver a plate of amala Ewedu and gbegiri, and goat meat to number 1 dolphin street, zoo estate, Enugu. Call 08077895621"
@@ -678,13 +678,13 @@
             "start": 13,
             "end": 42,
             "value": "white rice and stew with meat",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 48,
             "end": 61,
             "value": "Amala Embassy",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 73,
@@ -714,19 +714,19 @@
             "start": 28,
             "end": 38,
             "value": "Daisy Life",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 16,
             "end": 22,
             "value": "yogurt",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 2,
             "end": 11,
             "value": "hamburger",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 89,
@@ -756,7 +756,7 @@
             "start": 14,
             "end": 36,
             "value": "2 cups oriyoke parfait",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 66,
@@ -774,13 +774,13 @@
             "start": 14,
             "end": 32,
             "value": "2 chicken shawarma",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 37,
             "end": 55,
             "value": "Hollandia yorghurt",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 68,
@@ -1602,100 +1602,109 @@
         "text": "Nneoma, 08135689327, Oobianabanoble@gmail.com"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 7,
             "value": "Chivita",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Chivita"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 12,
             "value": "pulpy orange",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "pulpy orange"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 9,
             "value": "Hollandia",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Hollandia"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 12,
             "value": "orange juice",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "orange juice"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 9,
             "value": "milkshake",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "milkshake"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 16,
             "value": "blended smoothie",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "blended smoothie"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 7,
             "value": "parfait",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "parfait"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 6,
             "value": "yogurt",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "yogurt"
       },
       {
+        "intent": "restaurant_search",
         "entities": [
           {
             "start": 0,
             "end": 13,
             "value": "open sharaton",
-            "entity": "Store "
+            "entity": "Store"
           }
         ],
         "text": "open sharaton"
@@ -1707,41 +1716,43 @@
             "start": 26,
             "end": 52,
             "value": "tastee bakers and creamery",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 12,
             "end": 20,
             "value": "pastries",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "I want some pastries from tastee bakers and creamery"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 10,
             "end": 20,
             "value": "Ntachi Osa",
-            "entity": "Store "
+            "entity": "Store"
           }
         ],
         "text": "food from Ntachi Osa"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 13,
             "end": 22,
             "value": "Crunchies",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 0,
             "end": 7,
             "value": "chicken",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "chicken from Crunchies"
@@ -1753,13 +1764,13 @@
             "start": 7,
             "end": 18,
             "value": "Jollof rice",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 24,
             "end": 36,
             "value": "Mama Onyinye",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 51,
@@ -1777,13 +1788,13 @@
             "start": 28,
             "end": 40,
             "value": "Duo Pizzeria",
-            "entity": "Store "
+            "entity": "Store"
           },
           {
             "start": 8,
             "end": 22,
             "value": "2 large pizzas",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Deliver 2 large pizzas from Duo Pizzeria"
@@ -1795,7 +1806,7 @@
             "start": 7,
             "end": 21,
             "value": "bamboo skewers",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "I want bamboo skewers"
@@ -1807,7 +1818,7 @@
             "start": 8,
             "end": 19,
             "value": "bag of rice",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Give me bag of rice"
@@ -1819,35 +1830,37 @@
             "start": 8,
             "end": 14,
             "value": "hotdog",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 19,
             "end": 26,
             "value": "parfait",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Deliver hotdog and parfait"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 11,
             "value": "beef burger",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "beef burger"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 8,
             "value": "shawarma",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "shawarma"
@@ -1859,35 +1872,37 @@
             "start": 27,
             "end": 31,
             "value": "ukwa",
-            "entity": "Product "
+            "entity": "Product"
           },
           {
             "start": 36,
             "end": 40,
             "value": "fish",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "I want to order a plate of ukwa and fish"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 9,
             "value": "spaghetti",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "spaghetti"
       },
       {
+        "intent": "Order",
         "entities": [
           {
             "start": 0,
             "end": 22,
             "value": "Porridge beans and yam",
-            "entity": "Product "
+            "entity": "Product"
           }
         ],
         "text": "Porridge beans and yam"

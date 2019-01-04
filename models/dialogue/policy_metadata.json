@@ -2,11 +2,11 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "Location",
-        "Username",
-        "Store",
         "Product",
-        "Telephone"
+        "Telephone",
+        "Store",
+        "Username",
+        "Location"
       ]
     },
     "utter_goodbye": {
