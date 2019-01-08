@@ -20,7 +20,7 @@ intents: []
 slots:
   Product:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.ListSlot
   Store:
     initial_value: null
     type: rasa_core.slots.TextSlot

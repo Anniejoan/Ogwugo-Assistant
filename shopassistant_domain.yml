@@ -2,7 +2,7 @@ slots:
   Username:
     type: text
   Product:
-    type: text
+    type: list
   location:
     type: text
   Store:
