@@ -35,12 +35,12 @@ class ActionProductSearch(Action):
 		prodct_type = Products[0]["product_type"]
 
 		if stock_status == 1:
-			reply = """" {} sold by {} is currently available for delivery.""".format(name_value, store_value)
+			# reply = """" {} sold by {} is currently available for delivery.""".format(name_value, store_value)
+			dispatcher.utter_message("""" {} sold by {} is currently available for delivery.""".format(name_value, store_value))
 		else:
-			reply = """" {} sold by {} is currently unavailable for delivery.""".format(name_value, store_value)
-		return 'ActionProductSearch'
+			# reply =  "" {name_value} sold by {store_value} is currently unavailable for delivery."
+			dispatcher.utter_message(" {name_value} sold by {store_value} is currently available for delivery.")
 
-		dispatcher.utter_message(reply)
 		return [SlotSet('Product', product_name)]
 
 		# get top 5 product names and their prices
@@ -48,10 +48,20 @@ class ActionProductSearch(Action):
 
 #class ActionUserSearch(Action):
 	#def name(self):
-		#return 'action_User_search'
+		#return 'action_user_search'
 
-
-		# get user phone number and address 
+     #def run(self, dispatcher, tracker, domain):
+		#Sample Basic Auth Url with login values as username and password
+	  	#user = "ogwugo_service"
+		#passwd = "g578276dsffdba"
+		#user_name = tracker.get_slot('Username')
+		#url = "https://ogwugo.net/api/v2/machine/resources/users/buyers?user_name={user_name]"
+		#response = requests.get(url, auth=auth values)
+		#user_dict = json.loads(response.content.decode())
+		#User = user_dict['data']
+		#Telephone = User["phone"]
+		#location = User["addresses"]["address"]
+	# get user phone number and address
 		# return Telephone
 		# return Address
 
@@ -78,6 +88,5 @@ class ActionProductSearch(Action):
 
 
 		# narrow the search space to items sold by that store
-#		return 'ActionStoreSearch'
-
+#		return 'ActionStoreS
 

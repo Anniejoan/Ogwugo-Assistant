@@ -54,8 +54,8 @@
         "text": "yes"
       },
       {
-        "intent": "affirm",
-        "text": "yep"
+        "intent": "greet",
+        "text": "hello there"
       },
       {
         "intent": "affirm",
@@ -1978,6 +1978,18 @@
           }
         ],
         "text": "no 1 jubilee road premiere layout"
+      },
+      {
+        "intent": "greet",
+        "text": "how far"
+      },
+      {
+        "intent": "greet",
+        "text": "what's up"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you doing"
       }
     ],
     "regex_features": [],

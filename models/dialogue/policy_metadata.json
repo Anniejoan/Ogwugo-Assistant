@@ -2,17 +2,22 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "Store",
+        "Telephone",
         "Username",
+        "Store",
         "Product",
-        "Location",
-        "Telephone"
+        "location"
       ]
     },
-    "action.action_Product_search": {
-      "slots": []
+    "action_Product_search": {
+      "slots": [
+        "Product"
+      ]
     },
     "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
       "slots": []
     }
   },

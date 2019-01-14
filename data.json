@@ -61,8 +61,8 @@
         "entities": []
       },
       {
-        "text": "hello there",
-        "intent": "greet",
+        "text": "yep",
+        "intent": "affirm",
         "entities": []
       },
       {
@@ -1997,21 +1997,6 @@
             "entity": "location"
           }
         ]
-      },
-      {
-        "text": "how far",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "what's up",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "how are you doing",
-        "intent": "greet",
-        "entities": []
       }
     ]
   }

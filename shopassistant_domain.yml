@@ -26,6 +26,7 @@ entities:
 templates:
   utter_greet:
     - 'Hello! How can I help'
+    - 'Hi! Go ahead and place an order'
   utter_goodbye:
     - 'Talk to you later'
     - 'Bye bye'
@@ -41,7 +42,7 @@ templates:
     - 'Where do you want your order to be delivered to?'
     - 'Please provide your current location details'
 actions:
-    - action.action_Product_search
+    - action_Product_search
     - utter_greet
     - utter_goodbye
     - utter_ask_details

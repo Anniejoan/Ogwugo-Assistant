@@ -25,5 +25,14 @@
         </list>
       </option>
     </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="action_server.actions" />
+          <option value="action_server.rasa_core_sdk" />
+          <option value="action_server.*" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>

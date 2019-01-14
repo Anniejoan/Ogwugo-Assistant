@@ -1,7 +1,7 @@
 %YAML 1.1
 ---
 actions:
-- action.action_Product_search
+- action_Product_search
 - utter_greet
 - utter_goodbye
 - utter_ask_details
@@ -54,3 +54,4 @@ templates:
   - text: Bye bye
   utter_greet:
   - text: Hello! How can I help
+  - text: Hi! Go ahead and place an order
